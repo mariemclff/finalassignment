@@ -81,42 +81,17 @@ main {
     font-family: regular;
 }
 
-.testcode h2 {
-    margin-left: 20rem;
-}
 
-
-.access img {
-    max-width: 70%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    margin-top: 0;
-}
-
-.access > div {
-    vertical-align: middle;
-    display: inline-block;
-    padding: 1rem;
-}
-
-.access > div.left {
-  height: 100%;
-  width: 70%;
-}
-
-.access > div.right {
-    height: 100%;
-    width: 20%;
-}
-
-.testcode {
+.text {
     background: #eceae4;
     box-sizing: border-box;
-    padding: 0.5rem;
+    padding: 2rem;
     width: 100%;
     box-shadow: 0.35rem 0.35rem 0.5rem 0.15rem darkgrey;
+}
+
+.text.first {
+    margin-bottom: 2rem;
 }
 
 
