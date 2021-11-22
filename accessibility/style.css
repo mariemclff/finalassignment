@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'regular';
+    src: url('../assets/inter-regular-webfont.woff2') format('woff2'),
+         url('../assets/inter-regular-webfont.woff') format('woff'),
+         url('../assets/inter-regular-webfont.ttf') format('truetype'),
+         url('../assets/inter-regular-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'abril';
+    src: url('../assets/abrilfatface-regular-webfont.woff2') format('woff2'),
+         url('../assets/abrilfatface-regular-webfont.woff') format('woff'),
+         url('../assets/abrilfatface-regular-webfont.ttf') format('truetype'),
+         url('../assets/abrilfatface-regular-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media only screen and (min-width: 800px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+header {
+    background-color: #c6dbda;
+    color: black;
+    text-align: center;
+    font-family: regular;
+    font-size: 1rem;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+
+header ul > li {
+    display: inline-block;
+    padding: 1rem;
+}
+
+header a {
+    color: inherit;
+    text-decoration: none;
+}
+
+header a:active {
+    color: white;
+}
+
+body {
+    margin: 0;
+    background: url("../assets/kjeller.jpg")  no-repeat center top fixed , linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%) no-repeat ;
+    background-attachment: fixed;  
+}
+
+main {
+    padding: 4rem;
+    font-size: 1rem;
+    font-family: regular;
+}
+
+
+
+.title {
+    font-family: abril;
+    text-align: center;
+    font-size: 4.5rem;
+    color: #efcd00;
+}
+
+
+
+.primarytitle {
+    font-size: 2.5rem;
+    font-family: regular;
+}
+
+.testcode h2 {
+    margin-left: 20rem;
+}
+
+
+.access img {
+    max-width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    margin-top: 0;
+}
+
+.access > div {
+    vertical-align: middle;
+    display: inline-block;
+    padding: 1rem;
+}
+
+.access > div.left {
+  height: 100%;
+  width: 70%;
+}
+
+.access > div.right {
+    height: 100%;
+    width: 20%;
+}
+
+.testcode {
+    background: #eceae4;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    width: 100%;
+    box-shadow: 0.35rem 0.35rem 0.5rem 0.15rem darkgrey;
+}
+
+
+footer {
+    background-color: #c6dbda;
+    color: black;
+    font-size: 1.25;
+    text-align: center;
+    font-family: regular;
+    margin: 0;
+    padding-bottom: 2rem;
+}
+
+footer a{
+    color: inherit;
+}
+
+footer h1{
+    font-size: 1.5rem;
+}
+
+.contact {
+    padding-top: 1rem;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}

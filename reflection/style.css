@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'regular';
+    src: url('../assets/inter-regular-webfont.woff2') format('woff2'),
+         url('../assets/inter-regular-webfont.woff') format('woff'),
+         url('../assets/inter-regular-webfont.ttf') format('truetype'),
+         url('../assets/inter-regular-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'abril';
+    src: url('../assets/abrilfatface-regular-webfont.woff2') format('woff2'),
+         url('../assets/abrilfatface-regular-webfont.woff') format('woff'),
+         url('../assets/abrilfatface-regular-webfont.ttf') format('truetype'),
+         url('../assets/abrilfatface-regular-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media only screen and (min-width: 800px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+
+header {
+    background-color: #c6dbda;
+    color: black;
+    font-size: 1rem;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    font-family: regular;
+}
+
+
+header ul > li {
+    display: inline-block;
+    padding: 1rem;
+}
+
+header a {
+    color: inherit;
+    text-decoration: none;
+}
+
+header a:active {
+    color: white;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+    background: url("../assets/kjeller.jpg")  no-repeat center top fixed , linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%) no-repeat ;
+    background-attachment: fixed;  
+}
+
+main {
+    padding: 4rem;
+    font-size: 1rem;
+    font-family: regular;
+}
+
+.workload {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.workload p {
+    background: #eceae4;
+    box-shadow: 0.35rem 0.35rem 0.5rem 0.15rem darkgrey;
+    padding: 2.4rem;
+}
+
+.title {
+    font-family: abril;
+    text-align: center;
+    font-size: 4.5rem;
+    color: #efcd00;
+}
+
+
+.primarytitle {
+    font-size: 2.5rem;
+    font-family: regular;
+}
+
+.othercountry {
+    margin-top: 4rem;
+    padding: 0.8em;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background: #eceae4;
+    box-shadow: 0.35rem 0.35rem 0.5rem 0.15rem darkgray;
+;
+}
+
+.international {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    order: 1;
+    object-fit: contain;
+    flex-grow: 1;
+}
+
+img {
+    max-width: 100%;
+    max-height: 50rem;
+}
+
+.right {
+    order: 2;
+    flex-grow: 1;
+    flex-shrink: 2;
+    text-align: center;
+    align-self: center;
+}
+
+footer {
+    background-color: #c6dbda;
+    color: black;
+    font-size: 1.25;
+    text-align: center;
+    font-family: regular;
+    margin: 0;
+    padding-bottom: 2rem;
+}
+
+footer a{
+    color: inherit;
+}
+
+footer h1{
+    font-size: 1.5rem;
+}
+
+.contact {
+    padding-top: 1rem;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
