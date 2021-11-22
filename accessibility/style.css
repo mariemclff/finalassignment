@@ -52,10 +52,6 @@ header a {
     text-decoration: none;
 }
 
-header a:active {
-    color: white;
-}
-
 body {
     margin: 0;
     background: url("../assets/kjeller.jpg")  no-repeat center top fixed , linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%) no-repeat ;
